@@ -1,0 +1,268 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    display: fixed;
+    shape-margin: 1px;
+    background:  #fff2de;
+    height: 105px;
+    width: 100%;
+    color: #4d3a1e;
+    justify-content: center;
+    align-items: center;
+}
+
+.head a {
+    color: #4d3a1e;
+    text-decoration: none;
+
+}
+
+#name {
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+#head-text {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    justify-content: center;
+
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 30px;
+    padding: 20px;
+    background: #fff2de;
+    color: #4d3a1e;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    max-width: 250vh;
+    width: 100%;
+    background: #fff2de;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #594423;
+    text-decoration: none;
+    border-bottom: none;
+}
+    #menu-toggle:checked + 
+    .menu-icon + .menu {
+        display: block;
+    }
+.menu a {
+    color: #594423;
+    text-decoration: none;
+}
+
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3a2d17;
+    height: 100vh;
+    width: 100%;
+    gap: 4px;
+    padding-top: 15vh;
+    margin: 0;
+}
+
+#logo {
+    display: block;
+    width: auto;
+    max-width: 50vh;
+    height: auto;
+    max-height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+.main a, .main p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 0;;
+    margin: 0;
+    color: #fff2de;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.main a {
+    color: #272626;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background: linear-gradient(#f7ecbb, #907f65);
+    padding-top: 2px;
+}
+
+.priser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff2de;
+    height: 60vh;
+    width: 100%;
+    color: #3a2d17;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.priser h2 {
+    margin: 0;
+    padding: 0;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #3a2d17;
+}
+
+.priser li {
+    font-size: 20px;
+}
+
+.om-oss {
+    background-color: #fff2de;
+    height: 60vh;
+    width: 100%;
+    max-width: fit-content;
+    color: #3a2d17;
+    margin: auto;
+    padding: 20px;
+}
+
+.om-oss h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #3a2d17;
+}
+
+.om-oss p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    color: #3a2d17;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff2de;
+    height: 60vh;
+    width: 100%;
+    max-width: fit-content;
+    color: #3a2d17;
+    margin: auto;
+    padding: 20px;
+}
+
+.kontakt h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+    color: #3a2d17;
+}
+
+.kontakt p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    color: #3a2d17;
+}
+
+#kontakt-nmr {
+    color: #3a2d17;
+    text-decoration: underline;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a2d17;
+    color: #fff2de;
+    padding: 20px;
+}   
+
+.footer-logo {
+    width: auto;
+    max-width: 10vh;
+    height: auto;
+    max-height: 20vh;
+    margin-bottom: 10px;
+}   
+
+.fb-logo {
+    position: left;
+    width: auto;
+    max-width: 10vh;
+    height: auto;
+    max-height: 10vh;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a2d17;
+}
+  
+.dashed {
+    border-top: 1px dashed #3a2d17;
+    width: 80%;
+    margin: 20px auto;
+}
+
